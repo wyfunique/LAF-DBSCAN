@@ -46,7 +46,7 @@ An example of the python package directory is `/usr/local/lib/python3.8/dist-pac
 
 
 ### 5. Demo
-Please see `evaluation.ipynb` for a demo about how to evaluate the four methods above. This notebook is also a mini-version of the evaluation script we used in our paper. You can reproduce our experiment results for MS-50k by running the notebook. Note that DBSCAN and LAF-DBSCAN++ both include randomized parts, so the ARI and AMI scores may not be exactly reproducible for them.   
+Please see `evaluation.ipynb` for a demo about how to evaluate the four methods above. This notebook is also a mini-version of the evaluation script we used in our paper. You can reproduce our experiment results for MS-50k by running the notebook. Note that DBSCAN++ and LAF-DBSCAN++ both include randomized parts, so the ARI and AMI scores may not be exactly reproducible for them.   
 
 ### 6. Developer
 Please refer to our paper and the comments in source code if you need to further develop this codebase. The main source file is `laf.pyx`.
